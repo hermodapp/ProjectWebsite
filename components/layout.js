@@ -5,6 +5,10 @@ import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
 const name = 'Hermod'
+const w1 = 'Sanghyun Simon Jeon'
+const w2 = 'Thien An Duong Do'
+const w3 = 'Jonathan Pence'
+const w4 = 'Russel Weas'
 export const siteTitle = 'About'
 
 export default function Layout({ children, home }) {
@@ -14,7 +18,7 @@ export default function Layout({ children, home }) {
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="About Hermod"
+          content="About the team members"
         />
         <meta
           property="og:image"
@@ -30,13 +34,13 @@ export default function Layout({ children, home }) {
           <>
             <Image
               priority
-              src="/images/profile.jpg"
+              src="/images/download.jpg"
               className={utilStyles.borderCircle}
               height={144}
               width={144}
-              alt={name}
+              alt={w1}
             />
-            <h1 className={utilStyles.heading2Xl}>{name}</h1>
+            <h1 className={utilStyles.heading2Xl}>{w1}</h1>
           </>
         ) : (
           <>
@@ -44,17 +48,116 @@ export default function Layout({ children, home }) {
               <a>
                 <Image
                   priority
-                  src="/images/profile.jpg"
+                  src="/images/download.jpg"
                   className={utilStyles.borderCircle}
                   height={108}
                   width={108}
-                  alt={name}
+                  alt={w1}
                 />
               </a>
             </Link>
             <h2 className={utilStyles.headingLg}>
               <Link href="/">
-                <a className={utilStyles.colorInherit}>{name}</a>
+                <a className={utilStyles.colorInherit}>{w1}</a>
+              </Link>
+            </h2>
+          </>
+        )}
+        {home ? (
+          <>
+            <Image
+              priority
+              src="/images/download.jpg"
+              className={utilStyles.borderCircle}
+              height={144}
+              width={144}
+              alt={w2}
+            />
+            <h1 className={utilStyles.heading2Xl}>{w2}</h1>
+          </>
+        ) : (
+          <>
+            <Link href="/">
+              <a>
+                <Image
+                  priority
+                  src="/images/download.jpg"
+                  className={utilStyles.borderCircle}
+                  height={108}
+                  width={108}
+                  alt={w2}
+                />
+              </a>
+            </Link>
+            <h2 className={utilStyles.headingLg}>
+              <Link href="/">
+                <a className={utilStyles.colorInherit}>{w2}</a>
+              </Link>
+            </h2>
+          </>
+        )}
+        {home ? (
+          <>
+            <Image
+              priority
+              src="/images/download.jpg"
+              className={utilStyles.borderCircle}
+              height={144}
+              width={144}
+              alt={w3}
+            />
+            <h1 className={utilStyles.heading2Xl}>{w3}</h1>
+          </>
+        ) : (
+          <>
+            <Link href="/">
+              <a>
+                <Image
+                  priority
+                  src="/images/download.jpg"
+                  className={utilStyles.borderCircle}
+                  height={108}
+                  width={108}
+                  alt={w3}
+                />
+              </a>
+            </Link>
+            <h2 className={utilStyles.headingLg}>
+              <Link href="/">
+                <a className={utilStyles.colorInherit}>{w3}</a>
+              </Link>
+            </h2>
+          </>
+        )}
+        {home ? (
+          <>
+            <Image
+              priority
+              src="/images/download.jpg"
+              className={utilStyles.borderCircle}
+              height={144}
+              width={144}
+              alt={w4}
+            />
+            <h1 className={utilStyles.heading2Xl}>{w4}</h1>
+          </>
+        ) : (
+          <>
+            <Link href="/">
+              <a>
+                <Image
+                  priority
+                  src="/images/download.jpg"
+                  className={utilStyles.borderCircle}
+                  height={108}
+                  width={108}
+                  alt={w4}
+                />
+              </a>
+            </Link>
+            <h2 className={utilStyles.headingLg}>
+              <Link href="/">
+                <a className={utilStyles.colorInherit}>{w4}</a>
               </Link>
             </h2>
           </>
