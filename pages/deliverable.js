@@ -1,66 +1,19 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
-/*import Layout, { siteTitle } from '../components/layout'
-import utilStyles from '../styles/utils.module.css'*/
 
-const name = 'Hermod'
-export const siteTitle = 'About'
-
-export default function About({ children, home }){
+export default function Deliverable(){
     return (
         <div className="container">
             <Head>
-                <link rel="icon" href="/favicon.ico" />
-                <meta
-                name="description"
-                content="About Hermod"
-                />
-                <meta
-                property="og:image"
-                content={`https://og-image.vercel.app/${encodeURI(
-                    siteTitle
-                )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.vercel.com%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
-                />
-                <meta name="og:title" content={siteTitle} />
-                <meta name="twitter:card" content="summary_large_image" />
+            <title>Deliverable</title>
+            <link rel="icon" href="/favicon.ico" />
             </Head>
-
-            <header className="header">
-                {home ? (
-                <>
-                    <Image
-                    priority
-                    src="/images/download.jpg"
-                    className="borderCircle"
-                    height={144}
-                    width={144}
-                    alt={name}
-                    />
-                    <h1 className="heading">{name}</h1>
-                </>
-                ) : (
-                <>
-                    <Link href="/">
-                    <a>
-                        <Image
-                        priority
-                        src="/images/download.jpg"
-                        className="borderCircle"
-                        height={108}
-                        width={108}
-                        alt={name}
-                        />
-                    </a>
-                    </Link>
-                    <h2 className="headingLG">
-                    <Link href="/">
-                        <a className="colorInherit">{name}</a>
-                    </Link>
-                    </h2>
-                </>
-                )}
-            </header>
+            
+            <main>
+                <h1 className="title">
+                <a href="/">Hermod</a>
+                </h1>
+            </main>
 
             <footer>
                 <a
@@ -88,7 +41,7 @@ export default function About({ children, home }){
                 flex: 1;
                 display: flex;
                 flex-direction: column;
-                justify-content: flex-start;
+                justify-content:flex-start;
                 align-items: center;
                 }
 
