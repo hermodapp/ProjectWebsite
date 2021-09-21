@@ -1,5 +1,5 @@
-import Head from 'next/head'
-import Link from 'next/link'
+import Head from "next/head";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -28,15 +28,13 @@ export default function Home() {
 
           <Link href="/deliverable">
             <a className="card">
-              <h3>Deliverable &rarr;</h3>
+              <h3>Deliverables &rarr;</h3>
               <p>Access our github and all other deliverable documentations!</p>
             </a>
           </Link>
         </div>
         <div classname="overview">
-          <p>
-            This is the description!
-          </p>
+          <p>This is the description!</p>
         </div>
       </main>
 
@@ -46,8 +44,7 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className="logo" />
+          Powered by <img src="/vercel.svg" alt="Vercel" className="logo" />
         </a>
       </footer>
 
@@ -197,5 +194,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
