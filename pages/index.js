@@ -26,7 +26,7 @@ export default function Home() {
             </a>
           </Link>
 
-          <Link href="/deliverable">
+          <Link href="/deliverables">
             <a className="card">
               <h3>Deliverables &rarr;</h3>
               <p>Access our github and all other deliverable documentations!</p>
