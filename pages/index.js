@@ -31,7 +31,7 @@ export default function Home() {
           <div className="flex flex-row items-center justify-center flex-wrap max-w-screen-md mt-12">
             <Link href="/about">
               <a className="flex-grow m-4 p-6 text-left rounded-xl border-nord4 border-2 hover:border-nord1 focus:border-nord1 active:border-nord1 w-2/5 h-auto">
-                <h3 className="mb-6 text-2xl text-nord10">About &rarr;</h3>
+                <h3 className="mb-6 text-2xl text-nord7">About &rarr;</h3>
                 <p className="m-0 text-xl">
                   Meet our team members and learn about who we are!
                 </p>
@@ -40,7 +40,7 @@ export default function Home() {
 
             <Link href="/deliverables">
               <a className="flex-grow m-4 p-6 text-left rounded-xl border-nord4 border-2 hover:border-nord1 focus:border-nord1 active:border-nord1 w-2/5 h-auto">
-                <h3 className="mb-6 text-2xl text-nord10">
+                <h3 className="mb-6 text-2xl text-nord7">
                   Deliverables &rarr;
                 </h3>
                 <p className="m-0 text-xl">
