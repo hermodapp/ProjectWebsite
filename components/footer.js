@@ -4,11 +4,11 @@ import Link from "next/link";
 export default function Footer() {
   return (
     <>
-      <footer class="text-gray-600 body-font mt-auto">
-        <div class="bg-gray-100">
+      <footer class="text-nord3 body-font font-medium mt-auto">
+        <div class="bg-translucent">
           <div class="container px-5 py-4 mx-auto flex items-center sm:flex-row flex-col">
             <Link href="/">
-              <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+              <a class="flex title-font font-medium items-center md:justify-start justify-center text-nord3">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
@@ -21,7 +21,7 @@ export default function Footer() {
                 >
                   <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
                 </svg>
-                <span class="ml-3 text-xl">Hermod</span>
+                <span class="ml-3 text-2xl">Hermod</span>
               </a>
             </Link>
 

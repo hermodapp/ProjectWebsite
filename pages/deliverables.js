@@ -13,27 +13,27 @@ export default function Deliverables() {
       </Head>
       <Header />
 
-      <section class="text-gray-600 body-font flex-grow">
+      <section class="text-nord3 body-font flex-grow">
         <div class="container px-5 py-24 mx-auto ">
           <div class="text-center mb-20">
-            <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-gray-900 mb-4">
+            <h1 class="sm:text-3xl text-2xl font-medium text-center title-font text-nord2 mb-4">
               Deliverables
             </h1>
-            <p class="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+            <p class="text-nord2 text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
               All the required deliverables are downloadable here.
             </p>
           </div>
-          <div class="flex flex-wrap -m-4">
-            <div class="p-3 lg:w-1/3 w-full">
-              <h2 class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">
+          <div class="flex justify-between flex-wrap m-4">
+            <div class="flex flex-col items-start p-3 lg:w-1/3 w-full justify-center">
+              <h2 class="font-medium title-font tracking-widest text-nord2 mb-4 text-sm text-center sm:text-left">
                 PRESENTATIONS
               </h2>
               <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
                 <a
                   href="/presentations/ProjectPresentation.pptx"
-                  class="focus:outline-none hover:text-indigo-600"
+                  class="focus:outline-none hover:underline"
                 >
-                  <span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span class="bg-nord10 text-nord6 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -50,16 +50,16 @@ export default function Deliverables() {
                 </a>
               </nav>
             </div>
-            <div class="p-3 lg:w-1/3 w-full">
-              <h2 class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">
+            <div class="flex flex-col items-start justify-center p-3 lg:w-1/3 w-full">
+              <h2 class="font-medium title-font tracking-widest text-nord2 mb-4 text-sm text-center sm:text-left">
                 SPRINTS AND BACKLOG
               </h2>
               <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
                 <a
                   href="/sprint/Daily%20Standups.docx"
-                  class="focus:outline-none hover:text-indigo-600"
+                  class="focus:outline-none hover:underline"
                 >
-                  <span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span class="bg-nord10 text-nord6 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -76,9 +76,9 @@ export default function Deliverables() {
                 </a>
                 <a
                   href="/sprint/Project%20Backlog.xlsx"
-                  class="focus:outline-none hover:text-indigo-600"
+                  class="focus:outline-none hover:underline"
                 >
-                  <span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span class="bg-nord10 text-nord6 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -96,9 +96,9 @@ export default function Deliverables() {
 
                 <a
                   href="/sprint/Sprint%201%20Backlog.docx"
-                  class="focus:outline-none hover:text-indigo-600"
+                  class="focus:outline-none hover:underline"
                 >
-                  <span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span class="bg-nord10 text-nord6 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -116,16 +116,16 @@ export default function Deliverables() {
               </nav>
             </div>
 
-            <div class="p-3 lg:w-1/3 w-full">
-              <h2 class="font-medium title-font tracking-widest text-gray-900 mb-4 text-sm text-center sm:text-left">
+            <div class="flex flex-col items-start justify-center p-3 lg:w-1/3 w-full">
+              <h2 class="font-medium title-font tracking-widest text-nord2 mb-4 text-sm text-center sm:text-left">
                 SOURCE CODE
               </h2>
               <nav class="flex flex-col sm:items-start sm:text-left text-center items-center -mb-1 space-y-2.5">
                 <a
                   href="https://github.com/hermodapp"
-                  class="focus:outline-none hover:text-indigo-600"
+                  class="focus:outline-none hover:underline"
                 >
-                  <span class="bg-indigo-100 text-indigo-500 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                  <span class="bg-nord10 text-nord6 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -145,7 +145,6 @@ export default function Deliverables() {
           </div>
         </div>
       </section>
-
       <Footer />
     </div>
   );
