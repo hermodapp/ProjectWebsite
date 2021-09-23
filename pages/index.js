@@ -49,8 +49,21 @@ export default function Home() {
               </a>
             </Link>
           </div>
-          <div className="overview">
-            <p>This is the description!</p>
+          <div className="flex flex-row items-center justify-center flex-wrap max-w-screen-md mt-4">
+            <h3 className="mb-4 text-2xl text-nord10">Overview</h3>
+            <p class="text-nord3 font-medium">
+              Hermod is an automated customer interaction tool which streamlines
+              communication between businesses and their customers. Customers
+              simply scan a QR code printed in a public place to load a Hermod
+              webform, which allows them to rapidly and seamlessly interact with
+              the company with knowledge of the customer’s location (i.e. table
+              at a restaurant, hotel room number, bathroom stall number) without
+              disclosing personal information. After the webform is submitted,
+              the application will dispatch an automated message on their behalf
+              to the company. This message could be performed using a Twilio
+              text-to-speech message, an SMS text message, email, or a push
+              notification.
+            </p>
           </div>
         </div>
       </div>
