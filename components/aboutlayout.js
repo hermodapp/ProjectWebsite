@@ -69,7 +69,7 @@ export default function Aboutlayout() {
               </div>
               <div class="flex flex-col items-center text-center justify-center">
                 <h2 class="font-medium title-font mt-4 text-gray-900 text-lg">
-                  Thien An Duong Do
+                  Do Thien An Duong
                 </h2>
                 <div class="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
                 <p class="text-base">
@@ -81,7 +81,9 @@ export default function Aboutlayout() {
             <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
               <p class="leading-relaxed text-lg mb-4">
                 I'm a CS student at The University of Alabama, graduating in
-                Summer 2022 with an internship experience with Bentley Systems.
+                Summer 2022. I've had intern experience with Bentley Systems.
+                I'm mostly interested in front-end development, especially with
+                3D rendering and VR/AR.
               </p>
             </div>
           </div>

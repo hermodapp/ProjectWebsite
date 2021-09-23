@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <Header />
 
-      <div className="flex flex-col min-h-screen justify-center items-center">
+      <div className="flex flex-col min-h-screen justify-center items-center -mt-40">
         <Head>
           <title>Hermod</title>
           <link rel="icon" href="/favicon.ico" />
@@ -24,11 +24,11 @@ export default function Home() {
             </a>
           </h1>
 
-          <p className="flex text-center text-2xl leading-5 mt-6">
+          <p className="flex text-center text-2xl leading-5 mt-8">
             <code className="bg-nord5 rounded p-2">CS495 Project </code>
           </p>
 
-          <div className="flex flex-row items-center justify-center flex-wrap max-w-screen-md mt-12">
+          <div className="flex flex-row items-center justify-center flex-wrap max-w-screen-md mt-4">
             <Link href="/about">
               <a className="flex-grow m-4 p-6 text-left rounded-xl border-nord4 border-2 hover:border-nord1 focus:border-nord1 active:border-nord1 w-2/5 h-auto">
                 <h3 className="mb-6 text-2xl text-nord7">About &rarr;</h3>
@@ -49,9 +49,9 @@ export default function Home() {
               </a>
             </Link>
           </div>
-          <div className="flex flex-row items-center justify-center flex-wrap max-w-screen-md mt-4">
+          <div className="flex flex-row items-center justify-center flex-wrap max-w-screen-md mt-0">
             <h3 className="mb-4 text-2xl text-nord10">Overview</h3>
-            <p class="text-nord3 font-medium">
+            <p class="text-nord3 font-medium text-justify">
               Hermod is an automated customer interaction tool which streamlines
               communication between businesses and their customers. Customers
               simply scan a QR code printed in a public place to load a Hermod
