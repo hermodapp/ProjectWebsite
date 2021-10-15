@@ -160,7 +160,7 @@ export default function Deliverables() {
                   GitHub
                 </a>
                 <a
-                  href="https://hermodapp.github.io/rustdocs/hermodapi/"
+                  href="https://docs.rs/hermod-api/*/hermod_api/"
                   class="focus:outline-none hover:underline"
                 >
                   <span class="bg-nord10 text-nord6 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
