@@ -46,7 +46,26 @@ export default function Deliverables() {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  First Presentation
+                  Sprint 1 Presentation
+                </a>
+                <a
+                  href="/presentations/ProjectPresentationSprint2.pptx"
+                  class="focus:outline-none hover:underline"
+                >
+                  <span class="bg-nord10 text-nord6 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>
+                  Sprint 2 Presentation
                 </a>
               </nav>
             </div>
@@ -72,7 +91,26 @@ export default function Deliverables() {
                       <path d="M20 6L9 17l-5-5"></path>
                     </svg>
                   </span>
-                  Daily Standups
+                  Daily Standups Sprint 1
+                </a>
+                <a
+                  href="/sprint/Sprint%202%20Daily%20Meetings.docx"
+                  class="focus:outline-none hover:underline"
+                >
+                  <span class="bg-nord10 text-nord6 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>
+                  Daily Standups Sprint 2
                 </a>
                 <a
                   href="/sprint/Project%20Backlog.xlsx"
@@ -131,6 +169,25 @@ export default function Deliverables() {
                     </svg>
                   </span>
                   Sprint 1 Retrospective
+                </a>
+                <a
+                  href="/sprint/Sprint2Retrospective.docx"
+                  class="focus:outline-none hover:underline"
+                >
+                  <span class="bg-nord10 text-nord6 w-4 h-4 mr-2 rounded-full inline-flex items-center justify-center">
+                    <svg
+                      fill="none"
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="3"
+                      class="w-3 h-3"
+                      viewBox="0 0 24 24"
+                    >
+                      <path d="M20 6L9 17l-5-5"></path>
+                    </svg>
+                  </span>
+                  Sprint 2 Retrospective
                 </a>
               </nav>
             </div>
