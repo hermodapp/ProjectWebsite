@@ -2,13 +2,14 @@ import Head from "next/head";
 import Link from "next/link";
 import Footer from "../components/footer";
 import Header from "../components/header";
+import ReactPlayer from "react-player/lazy";
 
 export default function Home() {
   return (
     <>
       <Header />
 
-      <div className="flex flex-col min-h-screen justify-center items-center -mt-40">
+      <div className="flex flex-col min-h-screen justify-center items-center ">
         <Head>
           <title>Hermod</title>
           <link rel="icon" href="/favicon.ico" />
@@ -64,6 +65,15 @@ export default function Home() {
               text-to-speech message, an SMS text message, email, or a push
               notification.
             </p>
+
+            <h3 className="my-4 text-2xl text-nord9">Demo Video</h3>
+
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=_zmBqPe7CiI"
+              controls
+              width="800px"
+              height="500px"
+            />
           </div>
         </div>
       </div>

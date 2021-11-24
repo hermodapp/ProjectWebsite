@@ -7,14 +7,9 @@ export default function Aboutlayout() {
     <section class="text-gray-600 body-font">
       <div class="container px-5 py-24 mx-auto flex flex-col">
         <div class="lg:w-4/6 mx-auto">
-          <div class="rounded-lg h-64 overflow-hidden">
-            <Image
-              src={"/images/welcome.jpg"}
-              alt="content"
-              height="300px"
-              width="900px"
-            />
-          </div>
+          <h1 className="text-nord8 flex justify-center m-0 text-center leading-5 text-6xl">
+            About Us
+          </h1>
           <div class="flex flex-col sm:flex-row mt-10">
             <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
               <div class="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
